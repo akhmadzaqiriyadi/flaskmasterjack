@@ -934,14 +934,6 @@ input[type="range"]::-ms-fill-lower {
   display: none;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
 .h-10 {
   height: 2.5rem;
 }
@@ -950,16 +942,20 @@ input[type="range"]::-ms-fill-lower {
   height: 1.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.h-9 {
+  height: 2.25rem;
 }
 
-.w-64 {
-  width: 16rem;
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-10 {
@@ -968,6 +964,10 @@ input[type="range"]::-ms-fill-lower {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .w-full {
@@ -1067,14 +1067,19 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
 }
 
-.bg-gray-200 {
+.bg-blue-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(63 131 248 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
