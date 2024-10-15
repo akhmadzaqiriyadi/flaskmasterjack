@@ -16,12 +16,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/flask_project.git
+    git clone https://github.com/akhmadzaqiriyadi/flaskmasterjack.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd flask_project
+    cd flaskmasterjack
     ```
 
 3. Create and activate a virtual environment:
@@ -64,8 +64,10 @@ This will start the application, and you can access it by navigating to `http://
 ## Project Structure
 
 ```
-flask_project/
+flaskmasterjack/
 │
+├── /config
+│   └── db_config.py
 ├── myapp.py              # Main Flask application
 ├── static/               # Static files (CSS, JS, images)
 │   ├── src/              # Tailwind CSS source files
