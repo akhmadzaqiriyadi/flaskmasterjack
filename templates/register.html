@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<title>Register Flask</title>
+{% endblock %}
+
+{% block body %}
+<h2>Register</h2>
+<form method="POST">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+    <label>Password:</label><br>
+    <input type="password" name="password" required><br>
+    <input type="submit" value="Register">
+</form>
+<a href="{{ url_for('login') }}">Already have an account? Login here</a>
+{% endblock %}
